@@ -1,0 +1,9 @@
+
+/* Importation des fonts */
+@font-face {
+    /* Creation d'un raccourci */
+    font-family: "playfairDR";
+    src: url(../css/fonts);
+  }
+  
+  /* RESET */
