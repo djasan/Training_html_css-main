@@ -20,28 +20,43 @@
   /* Pour le conteneur principal */
 main {
   display: flex;
-  flex-direction: column; /* Les éléments sont placés horizontalement */
+  flex-direction: column; /* Les éléments sont placés en colonne */
   justify-content: space-between; /* Les éléments sont espacés de manière égale */
+color: black;
+
+border-radius: 8px 24px 140px 8px;
+-webkit-border-radius: 8px 24px 140px 8px;
+-moz-border-radius: 8px 24px 140px 8px;
+background: #060707;
+border: 20px solid #100202;
+
+
+
 }
 
 /* Pour chaque conteneur d'image et de texte */
 .flex-container {
   display: flex;
-  flex-direction: row; /* Les éléments à l'intérieur sont placés horizontalement */
+  flex-direction: row; /* Les éléments à l'intérieur sont placés en colonne */
   align-items: center; /* Alignez les éléments verticalement au centre */
 
   /* Pour séparer les paires d'image et de texte */
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 /* Pour les images */
 .image {
   flex: 1; /* Les images prennent autant d'espace que possible */
-  padding-right: 20px; /* Espace entre l'image et le texte */
+  padding-right: 10cm; /* Espace entre l'image et le texte */
+  overflow: -moz-hidden-unscrollable;
 }
 
 /* Pour les textes */
 .text {
   flex: 1; /* Les textes prennent autant d'espace que possible */
+  font-size: smaller;
+  color: aquamarine;
+  font-weight: 300;
+
 }
 
 
@@ -52,7 +67,7 @@ main {
   /* Ajoutez ici les styles spécifiques pour vos conteneurs */
   width: 30%;
   height: 30%;
-  margin: 20px; /* Marge entre les conteneurs */
+  margin: 5px; /* Marge entre les conteneurs */
   overflow-wrap: normal ; /* Masquer tout contenu qui dépasse du conteneur */
   position: -webkit-sticky;
   transition: transform 0.3s ease-in-out; /* Animation de transformation */
@@ -141,5 +156,5 @@ nav {
   position: fixed;
   z-index: 1;
   width: 100%;
-  height: 55px;
+  height: 40px;
   top: 0;}
