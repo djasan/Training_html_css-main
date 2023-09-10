@@ -1,0 +1,145 @@
+/* Importation des fonts */
+
+
+@font-face {
+    font-family: "ArefR";
+    src: url(../font/ArefRuqaaInk-Bold.ttf);
+  }
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "font/ArefR", serif;
+  
+      
+      
+  }
+
+  /* Pour le conteneur principal */
+main {
+  display: flex;
+  flex-direction: column; /* Les éléments sont placés horizontalement */
+  justify-content: space-between; /* Les éléments sont espacés de manière égale */
+}
+
+/* Pour chaque conteneur d'image et de texte */
+.flex-container {
+  display: flex;
+  flex-direction: row; /* Les éléments à l'intérieur sont placés horizontalement */
+  align-items: center; /* Alignez les éléments verticalement au centre */
+
+  /* Pour séparer les paires d'image et de texte */
+  margin-bottom: 40px;
+}
+/* Pour les images */
+.image {
+  flex: 1; /* Les images prennent autant d'espace que possible */
+  padding-right: 20px; /* Espace entre l'image et le texte */
+}
+
+/* Pour les textes */
+.text {
+  flex: 1; /* Les textes prennent autant d'espace que possible */
+}
+
+
+
+
+ /* CSS pour l'effet éventail avec agrandissement de l'image */
+.flex-container {
+  /* Ajoutez ici les styles spécifiques pour vos conteneurs */
+  width: 30%;
+  height: 30%;
+  margin: 20px; /* Marge entre les conteneurs */
+  overflow-wrap: normal ; /* Masquer tout contenu qui dépasse du conteneur */
+  position: -webkit-sticky;
+  transition: transform 0.3s ease-in-out; /* Animation de transformation */
+}
+
+.flex-container img {
+  /* Styles de base pour l'image (taille initiale) */
+  width: 50%;
+  height: auto;
+  transition: transform 0.3s ease-in-out; /* Animation de transformation */
+}
+
+/* Effet éventail au survol */
+.flex-container:hover {
+  transform: scale(1.1); /* Agrandir le conteneur au survol */
+}
+
+.flex-container:hover img {
+  transform: scale(1.1); /* Agrandir l'image légèrement plus que le conteneur */
+}
+
+
+
+
+
+
+
+/* Effet éventail au survol */
+.flex-containerr:hover {
+  transform: scale(1.1);} /* Agrandissement au survol */
+
+
+
+
+
+
+
+img,input{
+  width: 100%;
+}
+
+
+
+  /* Style général pour les conteneurs */
+.flex-container {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center; /* Alignement vertical au centre */
+}
+
+/* Style pour les images */
+.flex-container img {
+    width: 600px; /* Ajustez la largeur de l'image selon vos besoins */
+    margin-right: 20px; /* Marge à droite de l'image pour l'espace */
+}
+
+/* Style pour le texte */
+.flex-container .text {
+    flex: 1; /* Le texte prend le reste de l'espace disponible */
+}
+
+/* Style pour les titres */
+.flex-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les paragraphes de texte */
+.flex-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*  Pour appeler un element HTML dans un selecteur j'utilise son nom */
+nav {
+  display: flex;
+  /* Pour gerer l'alignement vertical des enfants de ma nav j' utilise align-items: ; */
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 11px 5px -6px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 0px 11px 5px -6px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 0px 11px 5px -6px rgba(0, 0, 0, 0.76);
+  background-color: rgba(255, 255, 255, 0.854);
+  /* Le z-index ne fonctionne pas avec
+  une position static(position par defaut) */
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 55px;
+  top: 0;}
