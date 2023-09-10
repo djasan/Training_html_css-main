@@ -126,3 +126,23 @@ Voici une explication des concepts clés de flexbox :
 
 En utilisant ces concepts, vous pouvez créer des mises en page flexibles et réactives qui s'adaptent aux différentes tailles d'écran et de contenu, ce qui en fait un outil précieux pour la conception web moderne.
   
+rappel html
+Voici quelques caractéristiques clés de HTML :
+
+    Structuration du Contenu : HTML permet de structurer le contenu d'une page web en utilisant des balises telles que <html>, <head>, <body>, <header>, <nav>, <section>, <div>, <p>, etc. Ces balises définissent la hiérarchie des éléments sur la page.
+
+    Hyperliens : HTML permet de créer des liens hypertextes vers d'autres pages web ou ressources en utilisant la balise <a>. Cela permet aux utilisateurs de naviguer d'une page à l'autre.
+
+    Multimédia : HTML prend en charge l'intégration d'éléments multimédias tels que les images (<img>), les vidéos (<video>), et les fichiers audio (<audio>).
+
+    Formulaires : Vous pouvez créer des formulaires interactifs pour collecter des données à l'aide des balises <form>, <input>, <textarea>, <select>, etc.
+
+    Sémantique : HTML5 introduit des éléments sémantiques tels que <header>, <footer>, <article>, <nav>, etc., qui permettent de décrire plus précisément le contenu de la page pour une meilleure accessibilité et un meilleur référencement.
+
+    Compatibilité : HTML est largement compatible avec différents navigateurs web, ce qui signifie que les pages HTML peuvent être consultées sur diverses plates-formes et appareils.
+
+    Balises personnalisées : Vous pouvez également créer vos propres balises personnalisées dans HTML5 en utilisant les attributs data-*, ce qui permet d'ajouter des données personnalisées aux éléments HTML.
+
+    Intégration : HTML peut être combiné avec d'autres langages et technologies comme CSS (Cascading Style Sheets) pour la mise en page et le style, JavaScript pour l'interactivité, et plus encore.
+
+HTML est la base de la création de pages web et est essentiel pour la construction de sites web modernes et interactifs. Il définit la structure de base d'une page web, tandis que CSS est utilisé pour la mise en page et le style, et JavaScript est utilisé pour ajouter de l'interactivité à la page.
